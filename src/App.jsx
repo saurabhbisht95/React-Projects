@@ -12,9 +12,9 @@ function App() {
   return (
     <>
     {isGameStarted 
-     ? // if isGameStarted value true the it will render the Gameplay page
+     ? // if isGameStarted value true the it will render the Gameplay page.
      <GamePlay/> 
-     : // if isGameStarted value iis false it will render StartGame page
+     : // if isGameStarted value iis false it will render StartGame page.
      <StartGame toggle={toggleGamePlay}/>
     }
     <Footer><p>Developed by Saurabh</p></Footer>
